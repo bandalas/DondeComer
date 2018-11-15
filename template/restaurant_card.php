@@ -40,11 +40,11 @@
                         }
                         if(checkIfActive($restaurant->getAmerican()))
                         {
-                            echo('<span class="badge badge-pill badge-mexican">Mexicana</span>');
+                            echo('<span class="badge badge-pill badge-american">Americana</span>');
                         }
                         if(checkIfActive($restaurant->getMexican()))
                         {
-                            echo('<span class="badge badge-pill badge-american">Americana</span>');
+                            echo('<span class="badge badge-pill badge-mexican">Mexicana</span>');
                         }
                         if(checkIfActive($restaurant->getAsian()))
                         {
@@ -96,11 +96,11 @@
                         }
                         if(checkIfActive($restaurant->getAmerican()))
                         {
-                            echo('<span class="badge badge-pill badge-mexican">Mexicana</span>');
+                            echo('<span class="badge badge-pill badge-american">Americana</span>');
                         }
                         if(checkIfActive($restaurant->getMexican()))
                         {
-                            echo('<span class="badge badge-pill badge-american">Americana</span>');
+                            echo('<span class="badge badge-pill badge-mexican">Mexicana</span>');
                         }
                         if(checkIfActive($restaurant->getAsian()))
                         {
